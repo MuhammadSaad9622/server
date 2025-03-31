@@ -44,7 +44,7 @@ app.post('/Contact', upload.any(), async (req, res) => {
 
 function generateEmailHtml(formData) {
   return `
-    <h1>New Case Submission</h1>
+   
     ${Object.entries(formData)
       .map(
         ([key, value]) => `
