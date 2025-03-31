@@ -28,7 +28,7 @@ app.post('/Contact', upload.any(), async (req, res) => {
 
     const mailOptions = {
       from: `"Contact US" <${process.env.EMAIL_USER}>`,
-      to: 'saadsaadfast34@gmail.com',
+      to: 'guideme@guided4excellence.com',
       subject: 'Contact',
       html: generateEmailHtml(formData),
       
